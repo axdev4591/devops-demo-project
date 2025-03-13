@@ -16,7 +16,7 @@ pipeline {
         sh 'cd demo-java-app && mvn clean package'
       }
     }
-    stage('Static Code Analysis') {
+    stage('SonarCube Code Analysis') {
       environment {
         SONAR_URL = "http://sonarqube:9000"
       }
