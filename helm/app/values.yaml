@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  githubID: axdev
+  githubID: axdev4591
   repository: demo-java-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
